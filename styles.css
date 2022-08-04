@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Stardos+Stencil&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: url("./images/back.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 20px;
+  color: #fff;
+}
+header {
+  text-align: center;
+  font-family: "Roboto Slab", serif;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+}
+main {
+  margin: auto;
+  position: relative;
+  top: 50px;
+  width: 575px;
+  height: 385px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #075985;
+}
+.main-el {
+  opacity: 0.8;
+}
+section {
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+}
+
+h2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 40px;
+}
+.sec-el {
+  width: 155px;
+  height: 120px;
+  background-color: #000;
+  color: #f94f6d;
+  border-radius: 5px;
+  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0px;
+  font-size: 90px;
+  font-family: "Stardos Stencil", cursive;
+}
+button {
+  width: 45px;
+  height: 45px;
+  left: 82px;
+  top: 271px;
+  border: 2px solid #38bdf8;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: normal;
+  font-family: "Stardos Stencil", cursive;
+  background-color: #075985;
+  color: #38bdf8;
+  cursor: pointer;
+  margin: 0px 2px;
+}
+#reset {
+  width: auto;
+  padding: 0px 8px;
+  background: #f43f5e;
+  color: #fff;
+}
